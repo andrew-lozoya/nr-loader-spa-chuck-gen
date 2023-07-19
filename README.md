@@ -2,10 +2,10 @@
 
 # [nr-loader-spa-chuck-gen]
 > The nr-loader-spa-chuck-gen repository was created to enable organizations to easily streamline the collection of dynamic chucksIds allowing for a more efficient gathering of version-specific chunksIds i.e. `<filename>.<chunkId>-<version>.min.js`. These chunks are asynchronously loaded based on their IDs within the agent. 
-
- ![image](readmeData/chucks.png)
-
-Upon downloading the chunks, organizations can utilize these chunks to enable the loading of chunks as first-party resources, bypassing ad-blockers, or through their own content delivery networks (CDNs).
+>
+>![image](readmeData/chucks.png)
+>
+> Upon downloading the chunks, organizations can utilize these chunks to enable the loading of chunks as first-party resources, bypassing ad-blockers, or through their own content delivery networks (CDNs).
 
 ## Installation
 
