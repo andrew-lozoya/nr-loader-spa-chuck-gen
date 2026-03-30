@@ -2,7 +2,8 @@ const axios = require('axios');
 
 async function extractURLChunks() {
   const versionArgIndex = process.argv.indexOf('-version');
-  const version = versionArgIndex !== -1 ? process.argv[versionArgIndex + 1] : '1.236.0';
+  const version =
+    versionArgIndex !== -1 ? process.argv[versionArgIndex + 1] : '1.253.0';
 
   const url = 'https://js-agent.nr-assets.net/nr-loader-spa-' + version + '.js';
 
